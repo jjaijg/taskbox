@@ -39,7 +39,7 @@ export const Default: Story = {
     // Waits for the component to be updated based on the store
     await waitFor(async () => {
       // Simulates pinning the first task
-      await fireEvent.click(canvas.getByLabelText("pinTask-1"));
+      await fireEvent.click(canvas.getByLabelText("pinTask-2"));
       // Simulates pinning the third task
       await fireEvent.click(canvas.getByLabelText("pinTask-3"));
     });
